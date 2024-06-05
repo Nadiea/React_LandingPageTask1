@@ -4,10 +4,10 @@ export default function FAQ() {
   return (
     <div className=" bg-[#131A2C]">
   
-      <div className=" py-[40px] lg:py-[100px] p-5">
-        <div className="custom-container">
-          <div className="mb-[50px] w-full text-left lg:text-center">
-            <h1 className="header-font font-lexend mx-auto mb-[16px] w-[335px] text-[32px] font-semibold text-white/[0.9] lg:w-full lg:text-[48px]">
+      <div className=" py-[40px] lg:py-[100px] ">
+        <div className=" ">
+          <div className="mb-[50px] w-full text-left lg:text-center ">
+            <h1 className="   header-font font-lexend mx-auto mb-[16px] w-[335px] text-[32px] font-semibold text-white/[0.9] lg:w-full lg:text-[48px]">
               Frequently Asked Questions
             </h1>
             <p className="font-inter mx-auto w-[335px] text-[16px] text-white/[0.7] lg:w-[665px] lg:text-[18px]">
@@ -15,7 +15,7 @@ export default function FAQ() {
               Questions section, providing clarity and guidance for all users.
             </p>
           </div>
-          <div className="flex flex-col-reverse justify-center gap-[50px] px-[20px] lg:flex-row lg:gap-[100px] lg:px-0">
+          <div className="flex ml-0 mr-0   md:ml-20 md:mr-20  flex-col-reverse justify-center gap-[50px] px-[20px] lg:flex-row lg:gap-[70px] lg:px-0">
             <div className="flex h-auto gap-8 lg:h-[600px] lg:items-start lg:justify-between lg:gap-[48px]flex w-full flex-col-reverse justify-between lg:flex-col">
               <div className="flex flex-col">
                 <div className="mb-[28px] flex flex-col gap-[24px] lg:mb-[40px]">

@@ -1,7 +1,14 @@
-import { footerlogo } from "../assets/image/footer-logo.png";
-import { card1 } from "../assets/image/card1.png";
+// import { footerlogo } from "../assets/image/footer-logo.png";
+// import { card1 } from "../assets/image/card1.png";
+// import { footerlogo, card1 } from "../assets/image";
 
-export default function Footer() {
+
+import footerlogo from "../assets/image/footer-logo.png";
+import card1 from "../assets/image/card1.png";
+
+
+
+ function Footer() {
   return (
     <div className="  bg-[#000614] ">
       <div className="font-inter bg-[#000613]  P-4 px-[20px] lg:px-0">
@@ -272,3 +279,4 @@ export default function Footer() {
     </div>
   );
 }
+export default Footer;

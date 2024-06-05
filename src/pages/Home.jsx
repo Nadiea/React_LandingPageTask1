@@ -5,7 +5,7 @@ import Features from "./Features";
 import GetInTouch from "./GetInTouch";
 import Howtocreate from "./Howtocreate";
 import Pricing from "./Pricing";
-import {banner} from "../assets/image/banner.png";
+import banner from "../assets/image/banner.png";
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
             <div className=" ">
               <img
                 src={banner}
-                className=" md:ml-4 ml-0"
+                className=" md:ml-3 ml-0"
                 alt=""
               />
             </div>
