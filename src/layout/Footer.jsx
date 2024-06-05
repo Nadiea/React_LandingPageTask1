@@ -1,3 +1,6 @@
+import { footerlogo } from "../assets/image/footer-logo.png";
+import { card1 } from "../assets/image/card1.png";
+
 export default function Footer() {
   return (
     <div className="  bg-[#000614] ">
@@ -5,7 +8,7 @@ export default function Footer() {
         <div className="custom-container md:ml-4 ml-o">
           <div className="flex flex-col pb-[32px] pt-[40px] lg:flex-row lg:pt-[112px]">
             <div className="w-full lg:w-[30%]">
-              <img src="/src/assets/image/footer-logo.png" alt="" />
+              <img src={footerlogo} alt="" />
               <p className="font-inter mt-[12px] text-[16px] text-[#D2D2D5] lg:mt-[24px]">
                 Step into the realm of cutting-edge video enhancement with our
                 AI-driven subtitle tool, revolutionizing content accessibility.
@@ -262,11 +265,7 @@ export default function Footer() {
             <p className="font-inter order-last mt-[16px] text-[14px] text-white/[0.6] lg:order-first lg:mt-0 lg:text-[20px]">
               Copyright © 2024 MAZAL.AI . All rights reserved.
             </p>
-            <img
-              src="/src/assets/image/card1.png"
-              alt=""
-              className="w-4/5 lg:w-auto"
-            />
+            <img src={card1} alt="" className="w-4/5 lg:w-auto" />
           </div>
         </div>
       </div>

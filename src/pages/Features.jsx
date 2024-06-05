@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import {banner} from '../assets/image/banner.png'
 
 
 
@@ -202,7 +203,7 @@ function Features() {
                     </ul>
                   </div>
 
-                  <div className="w-full lg:w-[650px]"><img className='' src="/src/assets/image/banner.png" alt="bannar"></img></div>
+                  <div className="w-full lg:w-[650px]"><img className='' src={banner} alt="bannar"></img></div>
                   </div>
                 </div>
               

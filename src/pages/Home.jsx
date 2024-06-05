@@ -5,6 +5,7 @@ import Features from "./Features";
 import GetInTouch from "./GetInTouch";
 import Howtocreate from "./Howtocreate";
 import Pricing from "./Pricing";
+import {banner} from "../assets/image/banner.png";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
             </div>
             <div className=" ">
               <img
-                src="/src/assets/image/banner.png"
+                src={banner}
                 className=" md:ml-4 ml-0"
                 alt=""
               />

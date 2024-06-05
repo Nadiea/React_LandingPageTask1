@@ -1,10 +1,10 @@
-
+import vectorImage from '../assets/image/vector.jpg';
 
 const Background = () => {
   return (
     <div 
       style={{ 
-        backgroundImage: `url("/src/assets/image/vector.jpg")`, 
+        backgroundImage: `url(${vectorImage})`, 
         backgroundRepeat: 'repeat', 
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
